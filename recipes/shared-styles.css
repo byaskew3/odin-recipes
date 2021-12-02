@@ -1,0 +1,66 @@
+body {
+  height: auto;
+  background: rgb(82, 164, 198);
+  background: radial-gradient(
+    circle,
+    rgba(82, 164, 198, 1) 0%,
+    rgba(38, 70, 83, 1) 100%
+  );
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  border-radius: 10px;
+  color: rgb(21, 88, 81);
+  background: rgb(42, 157, 143);
+  background: radial-gradient(
+    circle,
+    rgba(42, 157, 143, 1) 0%,
+    rgba(16, 108, 97, 1) 100%
+  );
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin: auto;
+    transform: rotateZ(90deg);
+    border-radius: 20px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+    text-shadow: 1px 1px 1px #000;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    color: wheat;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.ingredients-steps {
+    text-align: start;
+}
+
+li {
+    color: rgb(187, 160, 111);
+    margin: auto;
+    text-shadow: 1px 1px 1px #000;
+}
+
+a {
+    text-decoration: none;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: ;
+    color: rgb(187, 160, 111);
+    margin: auto;
+    text-shadow: 1px 1px 1px #000;
+}

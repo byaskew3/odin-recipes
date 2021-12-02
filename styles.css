@@ -9,13 +9,18 @@ body {
 }
 h1 {
   text-align: center;
-  background-color: rgb(231, 111, 81);
+  background: rgb(244, 162, 97);
+  background: radial-gradient(
+    circle,
+    rgba(244, 162, 97, 1) 0%,
+    rgba(255, 146, 59, 1) 100%
+  );
   color: rgb(139, 60, 41);
   font-family: Helvetica, sans-serif;
   font-size: 35px;
+  text-shadow: 1px 1px 1px #000;;
   border-radius: 10px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  
 }
 
 img {
@@ -42,5 +47,6 @@ li {
 
 a {
   text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
   color: rgb(117, 79, 48);
 }
